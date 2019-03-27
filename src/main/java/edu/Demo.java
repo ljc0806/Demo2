@@ -9,6 +9,7 @@ public class Demo {
 		public static void main(String[] args) {
 				Student std=new Student(1,faker.name().fullName(),faker.address().fullAddress());
 				System.out.println(std.toString());
+				System.out.println("Hello World");
 			
 		}
 
